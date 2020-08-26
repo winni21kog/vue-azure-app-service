@@ -5,6 +5,10 @@
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
     <img alt="Dave" src="../assets/dave.jpg">
+    <h3>凱哥最愛</h3>
+    <video width="320" height="240" controls>
+      <source src="../assets/b.mp4" type="video/mp4">
+    </video>
     <h3>Installed CLI Plugins</h3>
     <ul>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
