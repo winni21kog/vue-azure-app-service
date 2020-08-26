@@ -4,10 +4,10 @@
     <p>
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
-    <img alt="Dave" src="../assets/dave.jpg">
+    <img alt="Dave" src="../assets/dave.jpg" v-on:click="Open()">
     <h3>凱哥最愛</h3>
-    <video width="320" height="240" controls>
-      <source src="~@/assets/bb.mp4" type="video/mp4">
+    <video v-if="open" width="320" height="240" autoplay>
+      <source src="~@/static/video/bb.mp4" type="video/mp4">
     </video>
     <h3>Installed CLI Plugins</h3>
     <ul>
@@ -39,7 +39,13 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String,
+    open:false,
   },
+  methods:{
+    Open:function(){
+this.open=!this.open;
+    }
+  }
 };
 </script>
 
