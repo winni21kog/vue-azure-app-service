@@ -6,9 +6,9 @@
     </p>
     <img alt="Dave" src="../assets/dave.jpg">
     <h3>凱哥最愛</h3>
-    <!-- <video width="320" height="240" controls>
+    <video width="320" height="240" controls>
       <source src="~@/assets/bb.mp4" type="video/mp4">
-    </video> -->
+    </video>
     <h3>Installed CLI Plugins</h3>
     <ul>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
