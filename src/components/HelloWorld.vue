@@ -39,13 +39,13 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String,
-    open:false,
+    open: { type: Boolean, default: false },
   },
-  methods:{
-    Open:function(){
-this.open=!this.open;
-    }
-  }
+  methods: {
+    Open() {
+      this.open = !this.open;
+    },
+  },
 };
 </script>
 
